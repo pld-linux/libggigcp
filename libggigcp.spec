@@ -61,6 +61,7 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc COPYING ChangeLog README doc/{TODO,colors*.faq}
 %attr(755,root,root) %{_libdir}/libggigcp.so.*.*.*
+%dir %{_libdir}/ggi/gcp
 %dir %{_libdir}/ggi/gcp/default
 %attr(755,root,root) %{_libdir}/ggi/gcp/default/*.so
 %config(noreplace) %verify(not md5 mtime size) %{_sysconfdir}/ggi/libggigcp.conf
