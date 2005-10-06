@@ -1,14 +1,14 @@
 Summary:	LibGGIGCP - generic color and palette management extension
 Summary(pl):	LibGGIGCP - ogólne rozszerzenie do zarz±dzania kolorami i palet±
 Name:		libggigcp
-Version:	0.9.1
+Version:	0.9.2
 Release:	1
 License:	Public Domain
 Group:		Libraries
-Source0:	http://www.ggi-project.org/ftp/ggi/current/%{name}-%{version}.src.tar.bz2
-# Source0-md5:	f2eade799abbb43708e175ee5c9b2433
+Source0:	http://www.ggi-project.org/ftp/ggi/v2.1/%{name}-%{version}.src.tar.bz2
+# Source0-md5:	b99ae02ec479ca9eaf295a97e2789d43
 URL:		http://www.ggi-project.org/packages/libggigcp.html
-BuildRequires:	libggi-devel >= 2.1.0
+BuildRequires:	libggi-devel >= 2.1.2
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
@@ -28,7 +28,7 @@ Summary:	Header files for libggigcp library
 Summary(pl):	Pliki nag³ówkowe biblioteki libggigcp
 Group:		Development/Libraries
 Requires:	%{name} = %{version}-%{release}
-Requires:	libggi-devel >= 2.1.0
+Requires:	libggi-devel >= 2.1.2
 
 %description devel
 Header files for libggigcp library.
