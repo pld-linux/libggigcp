@@ -1,5 +1,5 @@
 Summary:	LibGGIGCP - generic color and palette management extension
-Summary(pl):	LibGGIGCP - ogÛlne rozszerzenie do zarz±dzania kolorami i palet±
+Summary(pl.UTF-8):   LibGGIGCP - og√≥lne rozszerzenie do zarzƒÖdzania kolorami i paletƒÖ
 Name:		libggigcp
 Version:	0.9.2
 Release:	1
@@ -17,15 +17,15 @@ supports conversion between different color spaces such as RGBA, YUV,
 HSV and CMYK. Furthermore it supports a generic color-blending, which
 can also be used for transluency effects.
 
-%description -l pl
-LibGGIGCP to ogÛlne rozszerzenie do zarz±dzania kolorami i palet±.
-Obs≥uguje konwersjÍ pomiÍdzy rÛønymi przestrzeniami kolorÛw, takimi
-jak RGBA, YUV, HSV i CMYK. Ponadto obs≥uguje ogÛlny blending kolorÛw,
-ktÛry moøe byÊ uøywany takøe do efektÛw przezroczysto∂ci.
+%description -l pl.UTF-8
+LibGGIGCP to og√≥lne rozszerzenie do zarzƒÖdzania kolorami i paletƒÖ.
+Obs≈Çuguje konwersjƒô pomiƒôdzy r√≥≈ºnymi przestrzeniami kolor√≥w, takimi
+jak RGBA, YUV, HSV i CMYK. Ponadto obs≈Çuguje og√≥lny blending kolor√≥w,
+kt√≥ry mo≈ºe byƒá u≈ºywany tak≈ºe do efekt√≥w przezroczysto≈õci.
 
 %package devel
 Summary:	Header files for libggigcp library
-Summary(pl):	Pliki nag≥Ûwkowe biblioteki libggigcp
+Summary(pl.UTF-8):   Pliki nag≈Ç√≥wkowe biblioteki libggigcp
 Group:		Development/Libraries
 Requires:	%{name} = %{version}-%{release}
 Requires:	libggi-devel >= 2.1.2
@@ -33,8 +33,8 @@ Requires:	libggi-devel >= 2.1.2
 %description devel
 Header files for libggigcp library.
 
-%description devel -l pl
-Pliki nag≥Ûwkowe biblioteki libggigcp.
+%description devel -l pl.UTF-8
+Pliki nag≈Ç√≥wkowe biblioteki libggigcp.
 
 %prep
 %setup -q
