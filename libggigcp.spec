@@ -1,5 +1,5 @@
 Summary:	LibGGIGCP - generic color and palette management extension
-Summary(pl.UTF-8):   LibGGIGCP - ogólne rozszerzenie do zarządzania kolorami i paletą
+Summary(pl.UTF-8):	LibGGIGCP - ogólne rozszerzenie do zarządzania kolorami i paletą
 Name:		libggigcp
 Version:	0.9.2
 Release:	1
@@ -25,7 +25,7 @@ który może być używany także do efektów przezroczystości.
 
 %package devel
 Summary:	Header files for libggigcp library
-Summary(pl.UTF-8):   Pliki nagłówkowe biblioteki libggigcp
+Summary(pl.UTF-8):	Pliki nagłówkowe biblioteki libggigcp
 Group:		Development/Libraries
 Requires:	%{name} = %{version}-%{release}
 Requires:	libggi-devel >= 2.1.2
