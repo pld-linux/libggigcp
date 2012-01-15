@@ -1,3 +1,7 @@
+#
+# Conditional build:
+%bcond_with	static_modules	# build static library AND make all modules builtin (also in shared lib)
+#
 Summary:	LibGGIGCP - generic color and palette management extension
 Summary(pl.UTF-8):	LibGGIGCP - ogólne rozszerzenie do zarządzania kolorami i paletą
 Name:		libggigcp
@@ -55,7 +59,8 @@ Statyczna biblioteka libggigcp.
 %setup -q
 
 %build
-%configure
+%configure \
+	%{!?with_static_modules:--disable-static}
 %{__make}
 
 %install
@@ -92,6 +97,8 @@ rm -rf $RPM_BUILD_ROOT
 %{_includedir}/ggi/internal/gcp.h
 %{_mandir}/man3/gcp*.3*
 
+%if %{with static_modules}
 %files static
 %defattr(644,root,root,755)
 %{_libdir}/libggigcp.a
+%endif
